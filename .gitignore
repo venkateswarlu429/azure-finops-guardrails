@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local values (never commit real subscription/tenant IDs or secrets)
+*.tfvars
+!terraform.tfvars.example
+environments/dev/terraform.tfvars

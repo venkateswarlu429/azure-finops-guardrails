@@ -1,0 +1,9 @@
+# Example values only. Copy to terraform.tfvars, replace every placeholder,
+# and never commit real subscription IDs, tenant IDs, emails, or webhook URLs.
+location             = "eastus"
+resource_group_name  = "rg-finops-example-dev"
+cost_center          = "finops-example"
+storage_account_name = "finopsexample00000" # must be globally unique — change this
+monthly_budget       = 500
+alert_emails         = ["finops-alerts@example.invalid"]
+webhook_url          = ""
